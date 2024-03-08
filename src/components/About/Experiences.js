@@ -1,10 +1,11 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { GiAchievement } from "react-icons/gi";
-import myImg from "../../Assets/avatar.svg";
+/*import myImg from "../../Assets/avatar.svg";
 import Uni from "../../Assets/Uni.png";
 import Tilt from "react-parallax-tilt";
 import { Col , Row} from "react-bootstrap"
+*/
 
 function formatText(text) {
     const words = text.split(" ");
@@ -50,7 +51,7 @@ function Experiences() {
                         {renderFormattedText("-Executed successful attacks on websites, ensuring robust security measures.")}
                         <br />
                         {renderFormattedText("-Applied advanced skills to break encryptions, enhancing overall cybersecurity.")}
-                        <div style={{ position: "absolute", right: 0}}>
+                        {/*<div style={{ position: "absolute", right: 0}}>
                     <Row>
                 <Col md={{ span: 7, offset: 6 }} className="myAvatar">
                     <Tilt>
@@ -58,7 +59,7 @@ function Experiences() {
                     </Tilt>
                 </Col>
             </Row>
-            </div>
+    </div>*/}
                         <br />
                         <br />
                         <strong> ⦿ Retail Manager / Self Employed</strong> | Jeddah, Saudi Arabia.
@@ -136,15 +137,17 @@ function Experiences() {
                         <strong>Year of Graduation:</strong> 2024
                         <br />
                     </p>
-                    <div style={{ position: "absolute", right: 0}}>
-                    <Row>
-                <Col md={{ span: 6, offset: 6 }} className="myAvatar">
-                    <Tilt>
-                        <img src={Uni} className="img-fluid" alt="avatar" />
-                    </Tilt>
-                </Col>
-            </Row>
-            </div>
+                    {/* 
+<div style={{ position: "absolute", right: 0}}>
+    <Row>
+        <Col md={{ span: 6, offset: 6 }} className="myAvatar">
+            <Tilt>
+                <img src={Uni} className="img-fluid" alt="avatar" />
+            </Tilt>
+        </Col>
+    </Row>
+</div>
+*/}
                     <div className="purple" style={{  textAlign: "justify", fontSize: "20px", marginTop: "10px" }}>
                         <strong>Academic Achievements:</strong>
                         <br />
