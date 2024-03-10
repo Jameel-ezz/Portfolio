@@ -11,6 +11,7 @@ import {
 } from "react-icons/ai";
 import { FaCss3Alt } from "react-icons/fa";
 import { CgFileDocument } from "react-icons/cg";
+import { TbCertificate } from "react-icons/tb";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -98,6 +99,17 @@ function NavBar() {
                 <FaCss3Alt style={{ marginBottom: "2px" }} /> HTML & CSS Tricks
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certificates"
+                onClick={() => updateExpanded(false)}
+              >
+                <TbCertificate style={{ marginBottom: "2px" }} /> Certificates
+              </Nav.Link>
+            </Nav.Item>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

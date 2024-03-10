@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://jameel-ezz.gitgup.io/Portfolio",
+  "homepage": "https://jameel-ezz.gitgup.io/Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",
+    "memfs": "^4.7.7",
     "react": "^17.0.2",
     "react-bootstrap": "^2.10.0",
     "react-dom": "^17.0.2",
@@ -17,6 +18,7 @@
     "react-icons": "^4.12.0",
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",
+    "react-pdf-to-image": "^1.0.2",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "react-tsparticles": "^1.43.1",
@@ -26,8 +28,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -51,6 +53,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "worker-loader": "^3.0.8"
   }
 }
